@@ -1,0 +1,44 @@
+
+/* j'ai mis une couleur hors barre de recherche*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0); 
+    color: white;
+}
+h1 {
+    color: blanchedalmond; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* j'ai utilisé cette requete mais elle se mettait dans la carte donc;*/
+/*div {
+    height: 10px;
+    background: linear-gradient(to right, #A0342F, yellow, #3498db, red);
+    background-size: 200% 100%;
+    animation: gradient 5s linear infinite;
+}*/
+
+@keyframes gradient {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+}
+/* j'ai fait sa pour le mettre au dessus de ma page*/
+.test{ 
+    height: 10px;
+    background: linear-gradient(to right, #A0342F, yellow, #3498db, red);
+    background-size: 200% 100%;
+    animation: gradient 5s linear infinite;
+
+}
+
+
